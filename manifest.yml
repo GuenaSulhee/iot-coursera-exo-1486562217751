@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: iot-coursera-exo
+  host: iot-coursera-exo
+  disk_quota: 1024M
+  services:
+  - iot-coursera-exo-cloudantNoSQLDB
+  - iot-coursera-exo-iotf-service
